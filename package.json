@@ -2,7 +2,7 @@
   "name": "menu",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://mariajose20.github.io/menu",
+  "homepage": "https://mariajose20.github.io/menu/",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.32",
     "@fortawesome/free-brands-svg-icons": "^5.15.1",

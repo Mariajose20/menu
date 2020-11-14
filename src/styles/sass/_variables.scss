@@ -1,0 +1,71 @@
+$theme-colors: (
+    "info": #428bca,
+    "primary": #61dafb
+);
+
+@import "~bootstrap/scss/bootstrap";
+
+.nav-link.active {
+  color: #61dafb!important;
+}
+
+.dropdown-menu {
+  min-width: unset;
+}
+
+.navbar-nav {
+  list-style:none!important;
+  // margin:0px!important;
+  padding:0px!important;
+  clear:both!important;
+}
+.navbar-nav li{
+  margin:0px 10px!important;
+  padding:0px!important;
+  // float:left!important;
+}
+.navbar-nav li a{
+  display:block!important;
+  text-decoration:none!important;
+}
+
+.navbar-nav li a{
+  position: relative!important;
+  color:rgba(255, 255, 255, 0.5)!important;
+  // font-weight:bold!important;
+}
+.navbar-nav li a:before{
+  position: absolute!important;
+  color:rgb(94, 208, 240)!important;
+  content:attr(title)!important;
+  left:0px!important;
+  top:0px!important;
+  max-width:0%!important;
+  white-space: nowrap!important;
+  overflow:hidden!important;
+  transition: max-width 0.3s linear!important;
+  padding-left: 0.5rem;
+  padding-top: 0.5rem;
+}
+.navbar-nav li a:hover:before{
+  max-width:100%!important;
+}
+@media (max-width: 768px) {
+  .navbar-nav li a:before{
+    position: absolute!important;
+    color:rgb(94, 208, 240)!important;
+    content:attr(title)!important;
+    left:0px!important;
+    top:0px!important;
+    max-width:0%!important;
+    white-space: nowrap!important;
+    overflow:hidden!important;
+    transition: max-width 0.3s linear!important;
+    padding-left: 0rem;
+    padding-top: 0.5rem;
+  }
+
+  .navbar-nav li a:hover:before{
+    max-width:100%!important;
+  }
+}

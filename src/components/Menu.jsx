@@ -14,7 +14,7 @@ import ReactLogo from '../logo.svg';
 const Menu = () => {
   return (
     <Navbar bg="dark" variant="dark" expand="md" fixed="top">
-      <Navbar.Brand href="#home">
+      <Navbar.Brand as={NavLink} to={"/inicio"}>
       <img
         src={ReactLogo}
         className="d-inline-block align-top React-logo"

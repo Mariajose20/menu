@@ -1,4 +1,5 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom'
 import Img1 from './images/1.jpg'
 import './styles/estilos.scss'
 
@@ -46,7 +47,8 @@ const RicosPostres = () => {
                     que puede o no acompañar a un contenido principal, por ejemplo,
                     la publucidad, la barra lateral de un blog, etc.--> */}
             Postres de galletas
-            |<a href="carrusel.html">Ver catalogo de postres</a>
+            {/* |<a href="carrusel.html">Ver catalogo de postres</a> */}
+            |<NavLink to={"/ricos-postres/carrusel"}>Ver catalogo de postres</NavLink>
           </aside>
       </section>
       <footer className="azul fila">

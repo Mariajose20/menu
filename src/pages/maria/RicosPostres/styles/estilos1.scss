@@ -1,0 +1,90 @@
+.carousel-page {
+  background: plum;/*establece el color de fondo*/ 
+
+  .carousel {
+    max-width: 700px;
+   margin: 0 auto;/*Permite establecer los margeneres que desees*/
+   display: flex;/*Establece los tipos de visualizacion
+   interna y externa de un elemento*/
+       }
+  
+   #imagen {
+   width: 180%;/*Establece el ancho de un elemento mediante 
+   un valor numérico*/
+   height: 380px;
+   background-size: cover;
+       }
+  #retroceder {
+    font-size: 17px; /*Es pare el tamaño del texto*/    
+    font-weight: normal;       
+    background: pink;    
+    color:black; 
+    margin: 0; 
+    font-family: cursive;/*se utiliza para darle un tipo de letra con el css marcado*/
+  }
+   
+  #avanzar {
+  
+    font-size: 20px;  /*Es para el tamaño del texto*/   
+    font-weight: normal;     
+        
+    background: pink;    
+    
+    color:black; /*para colocarle color al texto*/
+    margin: 0; 
+    font-family: cursive;
+    
+   
+    
+  
+   
+  }
+  #play {
+   
+    background-color: hotpink;
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+    border-style: none;
+   
+   
+    
+  }
+  #stop {
+    background-color: hotpink;
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+    border-style: none;
+    
+   
+  }
+  
+  h1 { font-family: 'Times New Roman', Times, serif;
+     
+    text-align: center;
+   
+  
+  }
+  .controles{
+    text-align: center;
+  }
+  .inicio {
+   text-align: right;
+   
+   
+    }
+    #regresar {
+      background-color: hotpink;
+      width: 120px;
+      height: 40px;
+      border-radius: 20px;
+      border-style: none;
+      
+     
+    }
+  
+  
+
+}  
+

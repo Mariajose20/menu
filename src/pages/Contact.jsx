@@ -4,7 +4,7 @@ import { faUser } from '@fortawesome/free-regular-svg-icons'
 
 const Contact = () => {
   return (
-    <header className="App-header App-background">
+    <header className="bootstrap-template App-header App-background">
       {/* <img src={logo} className="App-logo" alt="logo" /> */}
       <FontAwesomeIcon icon={faUser} className="App-logo text-primary" style={{ width: "240px" }} />
       <p>

@@ -1,0 +1,66 @@
+.ricos-postres {
+  /*Maqueta No. 5*/
+
+  background: hotpink;/*establece el color de fondo*/ 
+  color: black;/*es utilizado para el color del separador de los elementos*/
+  font-family: sans-serif; /*Elije la tipografia*/
+  font-size: 25px;
+  text-align: center; /*alinea el texto*/
+  padding-top: 50px;
+
+  * {
+    border: 0; /*establece el borde*/
+    margin: 0;/*Permite establecer los margeneres que desees*/
+    padding: 0; /*Establece el espacio de relleno requerido por 
+  todos los lados de un elemento*/
+  }
+  
+  article
+  {
+    background:whitesmoke;/*establece el color de fondo*/ 
+    margin: .5em;
+    min-height: 120px;
+  }
+  aside, #principal
+    {
+        display: inline-block;/*Establece los tipos de visualizacion
+        interna y externa de un elemento*/
+        min-height: 200px;
+        width: 60%;/*Establece el ancho de un elemento mediante 
+        un valor numérico*/
+        vertical-align: top; /*alinea el contendor*/
+        
+
+    }
+  aside
+    { width: 35%; }    
+  #contenedor
+    {
+        /*font-size: 0;*/
+        width: 84%;   
+    }    
+
+  .azul
+  {
+    background:lightpink;
+    
+
+  }
+  .fila
+  {
+    margin: .25em auto;
+    padding: .25em;
+    width: 84%;
+    background: plum;
+  }
+
+  .titulo
+  {
+    background: cornsilk;
+    color: purple;
+    width: 90%;
+    margin: .25em auto;
+    font-family: 'Times New Roman', Times, serif;/*se utiliza para darle un tipo de letra con el css marcado*/
+  }
+
+}

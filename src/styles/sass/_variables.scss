@@ -68,4 +68,8 @@ $theme-colors: (
   .navbar-nav li a:hover:before{
     max-width:100%!important;
   }
+
+  .dropdown-toggle.nav-link {
+    padding-left: 0.5rem;
+  }
 }

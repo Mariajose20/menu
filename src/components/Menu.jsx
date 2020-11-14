@@ -34,11 +34,11 @@ const Menu = () => {
             <Nav.Link as={NavLink} title="Contacto" to={"/contacto"}>Contacto</Nav.Link>
           </li>
           <NavDropdown title="Dropdown" id="basic-nav-dropdown" menu>
-            <NavDropdown.Item>Opcion 1</NavDropdown.Item>
-            <NavDropdown.Item>Opcion 2</NavDropdown.Item>
-            <NavDropdown.Item>Opcion 3</NavDropdown.Item>
+            <NavDropdown.Item>Opción 1</NavDropdown.Item>
+            <NavDropdown.Item>Opción 2</NavDropdown.Item>
+            <NavDropdown.Item>Opción 3</NavDropdown.Item>
             <NavDropdown.Divider />
-            <NavDropdown.Item>Opcion 4</NavDropdown.Item>
+            <NavDropdown.Item>Opción 4</NavDropdown.Item>
           </NavDropdown>
         </Nav>
       </Navbar.Collapse>
